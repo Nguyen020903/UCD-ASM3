@@ -42,3 +42,22 @@ body, head{
 a{
     text-decoration: none; 
 }
+input[type=text] {
+    aspect-ratio: 585 / 60;
+    width: 15rem;
+    border: 2px solid green;
+    border-radius: 1rem;
+    position: relative;
+    left: 50%;
+    margin-top: 1vmin;
+    translate: -75% 0%;
+    
+}
+input[type="submit"] {
+    position: relative;
+    aspect-ratio: 10 / 3;
+    border-radius: 1rem;
+    width: 5.2rem;
+    left: 43.5%;
+    translate: -75% 0%;
+}

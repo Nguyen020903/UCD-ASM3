@@ -11,7 +11,48 @@
     <meta name="description" content="List of all international craigslist.org online classifieds sites">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>craigslist &gt; sites</title>
-
+    <script language="JavaScript">
+        <!--
+        var TRange=null;
+        function findString (str) {
+         if (parseInt(navigator.appVersion)<4) return;
+         var strFound;
+         if (window.find) {
+        
+          // CODE FOR BROWSERS THAT SUPPORT window.find
+          strFound=self.find(str);
+          if (strFound && self.getSelection && !self.getSelection().anchorNode) {
+           strFound=self.find(str)
+          }
+          if (!strFound) {
+           strFound=self.find(str,0,1)
+           while (self.find(str,0,1)) continue
+          }
+         }
+         else if (navigator.appName.indexOf("Microsoft")!=-1) {
+        
+          // EXPLORER-SPECIFIC CODE
+        
+          if (TRange!=null) {
+           TRange.collapse(false)
+           strFound=TRange.findText(str)
+           if (strFound) TRange.select()
+          }
+          if (TRange==null || strFound==0) {
+           TRange=self.document.body.createTextRange()
+           strFound=TRange.findText(str)
+           if (strFound) TRange.select()
+          }
+         }
+         else if (navigator.appName=="Opera") {
+          alert ("Opera browsers not supported, sorry...")
+          return;
+         }
+         if (!strFound) alert ("String '"+str+"' not found!")
+         return;
+        }
+        //-->
+        </script>
 </head>
 
 <body>
@@ -31,6 +72,12 @@
 </div>
 <div class="screen">  
     <div class="screen-image"></div>
+</div>
+<div class="search">
+    <form name="f1" action="" 
+        onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
+        <input type="text" placeholder="Find your country here." name=t1 value="">
+        <input type="submit" name=b1 value="find">
 </div>
 <h1><a name="US"></a>US</h1>
             <div class="colmask">
@@ -1247,4 +1294,21 @@
                     </ul>
                 </div>
             </div>
+            <div class="search_box">
+                <form action="" id="form2">
+                    <div>
+                        <input type="text" id="search">
+                        <input type="button" id="submit_form" onclick="checkInput()" value="Submit">
+                    </div>
+                </form>
+            </div>
+            
+            <!--END SEARCH BOX -->
+            <script>
+                function checkInput() {
+                    var query = document.getElementById('search').value;
+                    window.find(query);
+                    return true;
+                }
+            </script>
 </body>
