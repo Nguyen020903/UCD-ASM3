@@ -1,0 +1,44 @@
+html
+{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+#navBar {
+    margin: 10px auto;
+    text-align: center
+}
+#navBar a {
+    margin: 0 40px 0 0;
+    margin-top: 1vmin;
+    font-size: 5vmin;
+    text-decoration: none;
+}
+body, head{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.header{
+    text-align: center;
+    padding: 0%;
+    font-size: 10vmin;
+    line-height: 90px;
+    color: #551A8B;
+    font-weight: 500;
+    font-family: "Times New Roman",Times,serif;
+    font-stretch: expanded;
+}
+.screen {
+    aspect-ratio: 1845/412;
+    width: 188.9vmin;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background-image: url("image/map.png");
+}
+a{
+    text-decoration: none; 
+}
