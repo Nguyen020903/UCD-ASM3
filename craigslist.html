@@ -11,15 +11,13 @@
     <meta name="description" content="List of all international craigslist.org online classifieds sites">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>craigslist &gt; sites</title>
+    <!--
     <script language="JavaScript">
-        <!--
         var TRange=null;
         function findString (str) {
          if (parseInt(navigator.appVersion)<4) return;
          var strFound;
          if (window.find) {
-        
-          // CODE FOR BROWSERS THAT SUPPORT window.find
           strFound=self.find(str);
           if (strFound && self.getSelection && !self.getSelection().anchorNode) {
            strFound=self.find(str)
@@ -30,9 +28,6 @@
           }
          }
          else if (navigator.appName.indexOf("Microsoft")!=-1) {
-        
-          // EXPLORER-SPECIFIC CODE
-        
           if (TRange!=null) {
            TRange.collapse(false)
            strFound=TRange.findText(str)
@@ -51,8 +46,8 @@
          if (!strFound) alert ("String '"+str+"' not found!")
          return;
         }
-        //-->
         </script>
+    -->
 </head>
 
 <body>
@@ -73,12 +68,20 @@
 <div class="screen">  
     <div class="screen-image"></div>
 </div>
+<!--
 <div class="search">
     <form name="f1" action="" 
         onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
         <input type="text" placeholder="Find your country here." name=t1 value="">
         <input type="submit" name=b1 value="find">
 </div>
+-->
+
+<div class="search-bar">
+    <input type="text" placeholder="Search for a nation" onkeyup="filterNations(event)">
+    <div class="dropdown-menu" id="nationDropdown"></div>
+</div>
+
 <h1><a name="US"></a>US</h1>
             <div class="colmask">
                 <div class="box_1">
@@ -1303,7 +1306,7 @@
                 </form>
             </div>
             
-            <!--END SEARCH BOX -->
+            <!--
             <script>
                 function checkInput() {
                     var query = document.getElementById('search').value;
@@ -1311,4 +1314,6 @@
                     return true;
                 }
             </script>
+            -->
+    <script src="craigslist.js"></script>
 </body>
