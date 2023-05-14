@@ -102,3 +102,54 @@ input[type="submit"] {
   .search-bar .dropdown-menu-item.highlight {
     background-color: #f2f2f2;
   }
+
+  /*.box_1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1em;
+
+  }
+
+  .box_2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1em;
+  }
+
+  .box_3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1em;
+  }
+
+  .box_4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1em;
+  }
+*/
+  .state {
+    margin-bottom: 0;
+    text-transform: capitalize;
+  }
+  
+  .cities {
+    margin-top: 5px;
+    text-transform: capitalize;
+  }
+
+  .colmask {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1em;
+  }
