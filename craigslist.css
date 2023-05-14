@@ -1,0 +1,104 @@
+html
+{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+#navBar {
+    margin: 10px auto;
+    text-align: center
+}
+#navBar a {
+    margin: 0 40px 0 0;
+    margin-top: 1vmin;
+    font-size: 5vmin;
+    text-decoration: none;
+}
+body, head{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.header{
+    text-align: center;
+    padding: 0%;
+    font-size: 10vmin;
+    line-height: 90px;
+    color: #551A8B;
+    font-weight: 500;
+    font-family: "Times New Roman",Times,serif;
+    font-stretch: expanded;
+}
+.screen {
+    aspect-ratio: 1845/412;
+    width: 188.9vmin;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background-image: url("image/map.png");
+}
+a{
+    text-decoration: none; 
+}
+/*
+input[type=text] {
+    aspect-ratio: 585 / 60;
+    width: 15rem;
+    border: 2px solid green;
+    border-radius: 1rem;
+    position: relative;
+    left: 50%;
+    margin-top: 1vmin;
+    translate: -75% 0%;
+    
+}
+input[type="submit"] {
+    position: relative;
+    aspect-ratio: 10 / 3;
+    border-radius: 1rem;
+    width: 5.2rem;
+    left: 43.5%;
+    translate: -75% 0%;
+}
+*/
+
+/* Add some basic styling to the search bar */
+.search-bar {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    left: 50%;
+    translate: -50% 0%;
+    margin-top: 0.5vmin;
+  }
+
+  /* Style the input field */
+  .search-bar input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  /* Style the dropdown menu */
+  .search-bar .dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+
+  /* Style each item in the dropdown menu */
+  .search-bar .dropdown-menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  /* Highlight the selected item */
+  .search-bar .dropdown-menu-item.highlight {
+    background-color: #f2f2f2;
+  }
