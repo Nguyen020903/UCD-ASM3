@@ -41,6 +41,7 @@ head {
   width: 188.9vmin;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
   background-color: black;
   background-image: url("image/map.png");
 }
