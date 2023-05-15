@@ -1,47 +1,54 @@
-html
-{
-    scroll-behavior: smooth;
-    text-decoration: none;
+html {
+  scroll-behavior: smooth;
+  text-decoration: none;
 }
+
 #navBar {
-    margin: 10px auto;
-    text-align: center
+  margin: 10px auto;
+  text-align: center
 }
+
 #navBar a {
-    margin: 0 40px 0 0;
-    margin-top: 1vmin;
-    font-size: 5vmin;
-    text-decoration: none;
+  margin: 0 40px 0 0;
+  margin-top: 1vmin;
+  font-size: 5vmin;
+  text-decoration: none;
 }
-body, head{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+
+body,
+head {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-.header{
-    text-align: center;
-    padding: 0%;
-    font-size: 10vmin;
-    line-height: 90px;
-    color: #551A8B;
-    font-weight: 500;
-    font-family: "Times New Roman",Times,serif;
-    font-stretch: expanded;
+
+.header {
+  text-align: center;
+  padding: 0%;
+  font-size: 10vmin;
+  line-height: 90px;
+  color: #551A8B;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  font-stretch: expanded;
 }
+
 .screen {
-    aspect-ratio: 1845/412;
-    width: 188.9vmin;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    background-image: url("image/map.png");
+  aspect-ratio: 1845/412;
+  width: 188.9vmin;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  background-image: url("image/map.png");
 }
-a{
-    text-decoration: none; 
+
+a {
+  text-decoration: none;
 }
+
 /*
 input[type=text] {
     aspect-ratio: 585 / 60;
@@ -66,44 +73,44 @@ input[type="submit"] {
 
 /* Add some basic styling to the search bar */
 .search-bar {
-    position: relative;
-    display: inline-block;
-    width: 200px;
-    left: 50%;
-    translate: -50% 0%;
-    margin-top: 0.5vmin;
-  }
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  left: 50%;
+  translate: -50% 0%;
+  margin-top: 0.5vmin;
+}
 
-  /* Style the input field */
-  .search-bar input[type="text"] {
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-  }
+/* Style the input field */
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
 
-  /* Style the dropdown menu */
-  .search-bar .dropdown-menu {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    max-height: 200px;
-    overflow-y: auto;
-    border: 1px solid #ccc;
-    background-color: #fff;
-  }
+/* Style the dropdown menu */
+.search-bar .dropdown-menu {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
 
-  /* Style each item in the dropdown menu */
-  .search-bar .dropdown-menu-item {
-    padding: 8px 12px;
-    cursor: pointer;
-  }
+/* Style each item in the dropdown menu */
+.search-bar .dropdown-menu-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
 
-  /* Highlight the selected item */
-  .search-bar .dropdown-menu-item.highlight {
-    background-color: #f2f2f2;
-  }
+/* Highlight the selected item */
+.search-bar .dropdown-menu-item.highlight {
+  background-color: #f2f2f2;
+}
 
-  /*.box_1 {
+/*.box_1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -136,30 +143,30 @@ input[type="submit"] {
     gap: 1em;
   }
 */
-  .state {
-    margin-bottom: 0;
-    text-transform: capitalize;
-    font-size: 150%;
-  }
-  
-  .cities {
-    margin-top: 5px;
-    text-transform: capitalize;
-  }
+.state {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-size: 150%;
+}
 
-  .colmask {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 1em;
-  }
+.cities {
+  margin-top: 5px;
+  text-transform: capitalize;
+}
 
-  .page_block {
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
-    font-size: 500%;
-  }
+.colmask {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.page_block {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-size: 500%;
+}
