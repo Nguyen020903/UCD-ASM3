@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #e0e0e0;
+}
+html body {
+    overflow: hidden;
+}
+.left_top_bar {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 4vmin;
+    position: fixed;
+}
+.left_top_bar a {
+    text-decoration: none;
+    position: fixed;
+    color: black;
+}
+.left_top_bar a:nth-child(2){
+    left: 12%;
+}
+.left_top_bar a:nth-child(3){
+    left: 17%;
+}
+.left_top_bar a:nth-child(4){
+    left: 22%;
+}
+.left_top_bar a:nth-child(5){
+    left: 27%;
+}
+.left_top_bar .icon_1 {
+    aspect-ratio: 1 / 1;
+    width: 3rem;
+    border-radius: 1.5rem;
+    background-color: black;
+    position: fixed;
+    left: 80%;
+}
+.left_top_bar .icon_2 {
+    aspect-ratio: 3/1;
+    width: 9rem;
+    border-radius: 1.5rem;
+    background-color: black;
+    position: fixed;
+    left: 83%;
+}
+.left_top_bar .icon_3 {
+    aspect-ratio: 3/1;
+    width: 9rem;
+    border-radius: 1.5rem;
+    background-color: black;
+    position: fixed;
+    left: 91%;
+}
+.header{
+    position:relative;
+    padding-top: 4%;
+    text-align: center;
+    font-size: 3vmin;
+}
+  /* Style the input field */
+  .search-bar {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    left: 50%;
+    translate: -50% 0;
+  }
+
+  /* Style the input field */
+  .search-bar input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  /* Style the dropdown menu */
+  .search-bar .dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+
+  /* Style each item in the dropdown menu */
+  .search-bar .dropdown-menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  /* Highlight the selected item */
+  .search-bar .dropdown-menu-item.highlight {
+    background-color: #f2f2f2;
+  }
+
+  /* chưa hoàn thiện: phần context */
+  .frame_1{
+    aspect-ratio: 192 / 1;
+    width: 900rem;
+    border-radius: 0rem;
+    background-color: white;
+    position: relative;
+  }
+  .frame_2{
+    aspect-ratio: 1920/800;
+    width: 900rem;
+    border-radius: 0rem;
+    background-color: white;
+    position: relative;
+    top: 1rem;
+  }
