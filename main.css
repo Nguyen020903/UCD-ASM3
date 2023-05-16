@@ -139,7 +139,7 @@ html body {
     display: inline-block;
     position: relative;
     background: white;
-    border: 1px solid black;
+    border: 1px solid gray;
   }
 
   .nb_content {
@@ -153,19 +153,19 @@ html body {
 
   .dropdown li {
     display: block;
-    border: 1px solid black;
+    border: 1px solid gray;
   }
 
   .dropdown {
     width: 100%;
-    background-color: green ;
+    background-color: white ;
     position: absolute;
     z-index: 999;
     display: none;
   }
 
   .nb_content:hover {
-    background: red;
+    background: #e0e0e0;
   }
 
   ul li:hover .dropdown {
