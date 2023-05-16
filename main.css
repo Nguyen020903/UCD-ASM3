@@ -106,13 +106,13 @@ html body {
   }
 
   /* chưa hoàn thiện: phần context */
-  .frame_1{
+  /*.frame_1{
     aspect-ratio: 192 / 1;
     width: 900rem;
     border-radius: 0rem;
     background-color: white;
     position: relative;
-  }
+  }*/
   .frame_2{
     aspect-ratio: 1920/800;
     width: 900rem;
@@ -120,4 +120,54 @@ html body {
     background-color: white;
     position: relative;
     top: 1rem;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0e0;
+    padding-top: 20px;
+  }
+
+  .navbar_button {
+    display: inline-block;
+    position: relative;
+    background: white;
+    border: 1px solid black;
+  }
+
+  .nb_content {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .dropdown li {
+    display: block;
+    border: 1px solid black;
+  }
+
+  .dropdown {
+    width: 100%;
+    background-color: green ;
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+
+  .nb_content:hover {
+    background: red;
+  }
+
+  ul li:hover .dropdown {
+    display: block;
   }
