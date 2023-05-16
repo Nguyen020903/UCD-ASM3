@@ -140,9 +140,9 @@ html body {
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 15px;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid black;
   }
   
   .dropdown {
@@ -152,18 +152,18 @@ html body {
   
   .dropbtn {
     font-size: 16px;  
-    border: none;
     outline: none;
     color: black;
     background-color: white;
-    padding: 14px 16px;
+    padding: 12px 15px;
     font-family: inherit;
     margin: 0;
-    border: 1px solid gray;
+    border: 1px solid black;
+    min-width: 160px;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #e0e0e0;
   }
   
   .dropdown-content {
@@ -171,6 +171,7 @@ html body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
+    max-width: 320px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -178,7 +179,7 @@ html body {
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 10px 15px;
     text-decoration: none;
     display: block;
     text-align: left;
