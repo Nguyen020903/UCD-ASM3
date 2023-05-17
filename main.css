@@ -64,21 +64,34 @@ html body {
   position: fixed;
   left: 80%;
 }
-
+.left_top_bar .icon_1 img {
+  position: fixed;
+  width: 3rem;
+}
 .left_top_bar .icon_2 {
   aspect-ratio: 3/1;
   width: 9rem;
   border-radius: 1.5rem;
   background-color: black;
+  color:white;
+  font-size: large;
+  text-align: center;
   position: fixed;
   left: 83%;
 }
-
+.left_top_bar .icon_2 p {
+  position: fixed;
+  top: 3%;
+  left: 84.2%;
+}
 .left_top_bar .icon_3 {
   aspect-ratio: 3/1;
   width: 9rem;
   border-radius: 1.5rem;
   background-color: black;
+  color:white;
+  font-size: large;
+  text-align:center;
   position: fixed;
   left: 91%;
 }
