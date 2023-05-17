@@ -30,3 +30,10 @@
       dropdown.appendChild(item);
     });
   }
+  // Event listener to close the dropdown menu when clicking outside
+  document.addEventListener('click', function(event) {
+    const dropdown = document.getElementById('nationDropdown');
+    if (!dropdown.contains(event.target)) {
+      dropdown.innerHTML = '';
+    }
+  });
