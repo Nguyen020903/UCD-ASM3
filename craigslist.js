@@ -644,7 +644,7 @@ const nations = [
     { name: 'singapore', url:'https://singapore.craigslist.org'},
     { name: 'taiwan', url:'https://taipei.craigslist.org'},
     { name: 'united arab emirates', url:'https://dubai.craigslist.org'},
-    { name: 'vietnam', url:'https://vietnam.craigslist.org'},
+    { name: 'vietnam', url:'index.html'},
     { name: 'adelaide', url:'https://adelaide.craigslist.org'},
     { name: 'brisbane', url:'https://brisbane.craigslist.org'},
     { name: 'cairns', url:'https://cairns.craigslist.org'},
