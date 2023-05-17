@@ -29,7 +29,9 @@ html body {
   position: fixed;
   color: black;
 }
-
+.left_top_bar a:nth-child(1) {
+  margin-top: -0.5rem;
+}
 .left_top_bar a:nth-child(2) {
   font-size: 2vmin;
   left: 12%;
