@@ -273,3 +273,59 @@ html body {
 .dropdown-content a:active {
   color: red;
 }
+
+.ads_frame {
+  aspect-ratio: 16 / 9;
+  width: 19rem;
+  background-color: white;
+  position: absolute;
+  text-align: center;
+}
+.ads_frame:nth-child(1){
+  left: 20%;
+  translate: -20% 40%;
+}
+.ads_frame:nth-child(2){
+  left: 40%;
+  translate: -40% 40%;
+}
+.ads_frame:nth-child(3){
+  left: 60%;
+  translate: -60% 40%;
+}
+.ads_frame:nth-child(4){
+  left: 80%;
+  translate: -80% 40%;
+}
+.ads_frame:nth-child(5){
+  left: 20%;
+  translate: -20% 150%;
+}
+.ads_frame:nth-child(6){
+  left: 40%;
+  translate: -40% 150%;
+}
+.ads_frame:nth-child(7){
+  left: 60%;
+  translate: -60% 150%;
+}
+.ads_frame:nth-child(8){
+  left: 80%;
+  translate: -80% 150%;
+}
+.ads_frame:nth-child(9){
+  left: 20%;
+  translate: -20% 260%;
+}
+.ads_frame:nth-child(10){
+  left: 40%;
+  translate: -40% 260%;
+}
+.ads_frame:nth-child(11){
+  left: 60%;
+  translate: -60% 260%;
+}
+.ads_frame:nth-child(12){
+  left: 80%;
+  translate: -80% 260%;
+}
