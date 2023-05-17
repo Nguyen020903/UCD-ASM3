@@ -216,9 +216,9 @@ html body {
   content: '005E';
 }
 
-.dropbtn:after {
-  /* content: '\02C6'; */
-}
+/*.dropbtn:after {
+   content: '\02C6';
+}*/
 
 .dropbtn:hover {
   color: red;
