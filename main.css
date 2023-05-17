@@ -217,7 +217,7 @@ html body {
 }
 
 .dropbtn:after {
-  content: '\02C6';
+  /* content: '\02C6'; */
 }
 
 .dropbtn:hover {
